@@ -1,0 +1,176 @@
+:root {
+	--primary-text-color: #434455;
+	--primary-title-color: #2e2f42;
+	--secondary-text-color: #e7e9fc;
+	--primary-background-color: #ffffff;
+	--secondary-background-color: #f4f4fd;
+	--dark-background-color: #2e2f42;
+	--main-logo-color: #4d5ae5;
+	--secondary-logo-color: #2e2f42;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	color: var(--primary-text-color);
+	background: #ffffff;
+}
+
+/* основний колір текстів #434455 */
+/* додатковий колів текстів #E7E9FC */
+/* основний колір заголовків #2E2F42 */
+/* білий колір #FFFFFF */
+/* основний колір фону #FFFFFF */
+/* додатковий колір фону #F4F4FD */
+/* додатковий темний колір фону #2E2F42 */
+/* кольори логотипу #4D5AE5 #2E2F42 */
+
+/* стилі логотипу */
+
+.logo-header {
+	color: var(--main-logo-color);
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.3;
+	text-decoration: none;
+}
+
+.logo-footer {
+	color: var(--main-logo-color);
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+.logo-decor-head {
+	color: var(--primary-title-color);
+}
+
+.logo-decor-foot {
+	color: #f4f4fd;
+}
+
+/* зброс стилів списків */
+.list {
+	list-style: none;
+}
+
+/* стилі пунктів меню */
+.menu-nav .link {
+	color: var(--primary-title-color);
+	font-weight: 500;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.address {
+	list-style: none;
+	font-style: normal;
+}
+
+.address-link {
+	color: var(--primary-title-color);
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.hero {
+	background-color: var(--dark-background-color);
+}
+
+nav .link:hover,
+nav .link:focus {
+	color: #404bbf;
+}
+
+.address-link:hover,
+.address-link:focus {
+	color: #404bbf;
+}
+
+.hero .hero-title {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+}
+
+.button-main {
+	color: #ffffff;
+	background-color: #4d5ae5;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	cursor: pointer;
+}
+
+.list .list-title {
+	color: #2e2f42;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.list .list-text {
+	color: var(--primary-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.team-title,
+.work-title {
+	color: var(--primary-title-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.team .team-title-sec {
+	color: var(--primary-title-color);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.team-text {
+	color: var(--primary-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+footer .footer-text {
+	color: #e7e9fc;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: var(--dark-background-color);
+}
+.portfolio .button {
+	color: #4d5ae5;
+	background-color: #e7e9fc;
+	border: 0;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+	background-color: #404bbf;
+	color: #ffffff;
+}
