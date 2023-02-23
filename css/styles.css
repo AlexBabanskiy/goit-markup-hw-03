@@ -39,6 +39,10 @@ li {
 	padding: 0;
 }
 
+img {
+	display: block;
+}
+
 /* стилі логотипу */
 
 .logo-header {
@@ -79,14 +83,15 @@ li {
 
 .header-menu {
 	display: flex;
+	width: 1128px;
 	align-items: center;
-	padding-left: 156px;
-	padding-right: 156px;
+	/* padding-left: 156px;
+	padding-right: 156px; */
 	height: 72px;
 }
 
 .container {
-	width: 1440px;
+	/* width: 1440px; */
 }
 
 .menu-nav .link {
@@ -195,7 +200,7 @@ nav .link:focus {
 
 .advantages .list {
 	display: flex;
-	width: 1128px;
+	/* width: 1128px; */
 	flex-direction: row;
 	justify-content: space-between;
 	margin: auto;
@@ -324,6 +329,10 @@ footer {
 	height: auto;
 }
 
+.list .button-menu:last-child {
+	padding-right: 0;
+}
+
 .portfolio .button {
 	color: #4d5ae5;
 	background-color: #e7e9fc;
@@ -382,12 +391,15 @@ footer {
 	padding-bottom: 16px;
 }
 
-.portfolio .list {
+.portfolio-menu .list {
 	display: flex;
 	justify-content: center;
 }
 
 .portfolio-menu {
+	margin: auto;
+	align-content: center;
+	width: 586px;
 	margin-top: 96px;
 	margin-bottom: 72px;
 }
@@ -401,12 +413,12 @@ footer {
 	width: 264px;
 	height: 110px;
 	padding-top: 100px;
-	margin-left: 156px;
 }
 
 .container {
 	width: 1158px;
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
