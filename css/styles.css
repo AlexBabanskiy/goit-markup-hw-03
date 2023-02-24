@@ -214,7 +214,7 @@ nav .link:focus {
 
 .list .item-advantages {
 	margin: 0;
-	width: 264px;
+	width: calc((100% - 72px) / 4);
 	gap: 24px;
 }
 
