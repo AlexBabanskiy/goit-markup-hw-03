@@ -141,7 +141,6 @@ nav {
 .hero {
 	background-color: var(--dark-background-color);
 	text-align: center;
-	margin-bottom: 120px;
 	padding-top: 188px;
 	padding-bottom: 188px;
 }
@@ -200,6 +199,7 @@ nav .link:focus {
 
 .advantages {
 	padding-bottom: 120px;
+	padding-top: 120px;
 }
 .advantages .list {
 	display: flex;
@@ -223,6 +223,10 @@ nav .link:focus {
 .container-works {
 	align-items: flex-start;
 	margin: auto;
+}
+
+.works {
+	padding-bottom: 120px;
 }
 
 .works ul {
@@ -249,6 +253,13 @@ nav .link:focus {
 .team {
 	padding-top: 120px;
 	padding-bottom: 120px;
+	background-color: var(--secondary-background-color);
+}
+
+.team-item {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
+	background: var(--primary-background-color);
 }
 
 .team-title {
@@ -299,20 +310,20 @@ footer {
 .portfolio .list {
 }
 
-.list .button-menu {
+.list-portfolio-menu .button-menu {
 	display: flex;
 	padding-right: 24px;
 	width: auto;
 	height: auto;
 }
 
-.list .button-menu:last-child {
+.list-portfolio-menu .button-menu:last-child {
 	padding-right: 0;
 }
 
 .portfolio .button {
 	color: #4d5ae5;
-	background-color: #e7e9fc;
+	background-color: var(--secondary-background-color);
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
 	cursor: pointer;
@@ -328,12 +339,12 @@ footer {
 	color: #ffffff;
 }
 
-.portfolio-container ul {
+/* .portfolio-container ul {
 	margin: 0;
 	padding: 0;
-}
+} */
 
-.portfolio-container {
+.portfolio-container .list {
 	width: 1128px;
 	margin-left: auto;
 	margin-right: auto;
@@ -365,6 +376,9 @@ footer {
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #e7e9fc;
+	padding-top: 32px;
+	padding-left: 16px;
+	padding-bottom: 16px;
 }
 
 .portfolio-item:nth-child(3n) {
@@ -376,13 +390,19 @@ footer {
 }
 
 .portfolio-item .list-title {
-	padding-top: 32px;
-	padding-left: 16px;
+	color: var(--primary-title-color);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 .portfolio-item .list-text {
 	margin-top: 8px;
-	padding-bottom: 16px;
-	padding-left: 16px;
+	color: var(--primary-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .portfolio-menu .list {
@@ -390,12 +410,11 @@ footer {
 	justify-content: center;
 }
 
-.portfolio-menu {
-	margin: auto;
-	align-content: center;
-	width: 586px;
-	padding-top: 96px;
-	padding-bottom: 72px;
+.list-portfolio-menu {
+	display: flex;
+	justify-content: center;
+	margin-top: 96px;
+	margin-bottom: 72px;
 }
 
 .footer {
