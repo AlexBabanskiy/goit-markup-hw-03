@@ -83,11 +83,7 @@ img {
 
 .header-menu {
 	display: flex;
-	width: 1128px;
 	align-items: center;
-	/* padding-left: 156px;
-	padding-right: 156px; */
-	height: 72px;
 }
 
 .container {
@@ -100,6 +96,8 @@ img {
 	text-decoration: none;
 	font-size: 16px;
 	line-height: 1.5;
+	padding-top: 24px;
+	padding-bottom: 24px;
 	display: block;
 }
 
@@ -144,6 +142,8 @@ nav {
 	background-color: var(--dark-background-color);
 	text-align: center;
 	margin-bottom: 120px;
+	padding-top: 188px;
+	padding-bottom: 188px;
 }
 
 nav .link:hover,
@@ -164,8 +164,6 @@ nav .link:focus {
 	text-align: center;
 	letter-spacing: 0.02em;
 	margin: 0;
-	padding-top: 188px;
-	padding-bottom: 48px;
 }
 
 .button-main {
@@ -176,74 +174,55 @@ nav .link:focus {
 	font-size: 16px;
 	min-width: 169px;
 	height: 56px;
-	margin-bottom: 188px;
+	margin-top: 48px;
 	line-height: 1.5;
 	border: 1px solid transparent;
 	border-radius: 4px;
 	cursor: pointer;
 }
 
-.list .list-title {
+.item-advantages .list-title {
 	color: #2e2f42;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
+	margin-bottom: 8px;
 }
 
 .list .list-text {
 	color: var(--primary-text-color);
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 1.2;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
 
+.advantages {
+	padding-bottom: 120px;
+}
 .advantages .list {
 	display: flex;
-	/* width: 1128px; */
 	flex-direction: row;
 	justify-content: space-between;
-	margin: auto;
-	margin-bottom: 120px;
-}
-
-.advantages ul {
-	display: flex;
+	align-items: baseline;
 }
 
 .advantages-title {
 	margin: 0;
 }
 
-.item-advantages .list-text {
+.list .item-advantages {
 	margin: 0;
-	padding: 0;
-}
-
-.item-advantages .list-text:last-child {
-	padding-right: 0;
-}
-
-.item-advantages .list-title {
-	margin: 0;
-	padding: 0 0 8px 0;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-}
-
-.item-advantages {
 	width: 264px;
-	height: 104px;
+	gap: 24px;
 }
 
 /* Container Our works */
+
 .container-works {
-	margin-top: 120px;
 	align-items: flex-start;
-	width: 1128px;
 	margin: auto;
-	margin-bottom: 120px;
 }
 
 .works ul {
@@ -267,11 +246,9 @@ nav .link:focus {
 }
 
 /* Container team */
-
-.container-team {
-	width: 1128px;
-	margin: auto;
-	margin-bottom: 120px;
+.team {
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .team-title {
@@ -307,7 +284,7 @@ nav .link:focus {
 	text-align: center;
 }
 
-footer .footer-text {
+.footer-content .footer-text {
 	color: #e7e9fc;
 	font-weight: 400;
 	font-size: 16px;
@@ -360,19 +337,34 @@ footer {
 	width: 1128px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 120px;
+	padding-bottom: 120px;
 }
 
 .portfolio-container .list {
 	display: flex;
 	flex-wrap: wrap;
+	row-gap: 48px;
+	column-gap: 24px;
 }
 
 .list .portfolio-item {
 	width: 360px;
 	margin: 0;
-	margin-right: 24px;
-	margin-bottom: 48px;
+	/* border: 1px solid #e7e9fc; */
+}
+
+.content-border {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e7e9fc;
+
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e7e9fc;
+
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #e7e9fc;
 }
 
 .portfolio-item:nth-child(3n) {
@@ -385,10 +377,12 @@ footer {
 
 .portfolio-item .list-title {
 	padding-top: 32px;
+	padding-left: 16px;
 }
 .portfolio-item .list-text {
 	margin-top: 8px;
 	padding-bottom: 16px;
+	padding-left: 16px;
 }
 
 .portfolio-menu .list {
@@ -400,19 +394,17 @@ footer {
 	margin: auto;
 	align-content: center;
 	width: 586px;
-	margin-top: 96px;
-	margin-bottom: 72px;
+	padding-top: 96px;
+	padding-bottom: 72px;
 }
 
-.footer-section {
-	height: 310px;
+.footer {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .footer-content {
-	display: block;
 	width: 264px;
-	height: 110px;
-	padding-top: 100px;
 }
 
 .container {
