@@ -242,7 +242,7 @@ nav .link:focus {
 	font-size: 36px;
 	line-height: 1.1;
 	text-align: center;
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .list .works-item {
@@ -339,16 +339,15 @@ footer {
 	color: #ffffff;
 }
 
-/* .portfolio-container ul {
-	margin: 0;
-	padding: 0;
-} */
+.portfolio {
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
 
 .portfolio-container .list {
 	width: 1128px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 120px;
 }
 
 .portfolio-container .list {
@@ -413,7 +412,6 @@ footer {
 .list-portfolio-menu {
 	display: flex;
 	justify-content: center;
-	margin-top: 96px;
 	margin-bottom: 72px;
 }
 
